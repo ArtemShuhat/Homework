@@ -5,15 +5,12 @@ while(count >= 0){
     if (sweet == true){
         count --;
         alert(count);
-
-        if(count <= 0){                 //Если 0 конфет
+        if(count <= 0){
             alert('Пора покупать другую коробку...');
             break;
         }
-        
-    }
-    
-    else {
+    } else {
         break;
     }
+    
 }  
