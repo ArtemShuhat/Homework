@@ -5,7 +5,7 @@ while(count >= 0){
     if (sweet == true){
         count --;
         alert(count);
-        if(count <= 0){
+        if(count <= 0){ 
             alert('Пора покупать другую коробку...');
             break;
         }
