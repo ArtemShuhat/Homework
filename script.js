@@ -9,8 +9,7 @@ while(count > 0){
             alert('Пора покупать другую коробку...');
             break;
         }
-    } 
-    else{
+    } else {
        break; 
     }
 }  
