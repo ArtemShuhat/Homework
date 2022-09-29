@@ -6,5 +6,5 @@ if(isNaN(n)){
 }
 for (let i = 1; i <= n; i++){
     x *= i;
-}
+} 
 document.write(x + ' ');
