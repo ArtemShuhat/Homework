@@ -1,6 +1,5 @@
 'use strict';
-let count = 0;
-for(let i = 99;i !== count; i--){
+for(let i = 99;i > 0; i--){
     document.write(i + ' bottles of beer on the wall,'
      + i +' bottles of beer, If one of those bottles should happen to fall' + '</br>');
 }
