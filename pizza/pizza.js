@@ -25,7 +25,10 @@ function orderingPizza(n = 1, a = 1) {
         case 5:
             price= 160;
             order = 'мясная';
-            break;       
+            break;
+        default:
+            alert("Ошибка");
+            break;
     }
     sum += price * count;
     return 'Ваш заказ:' + '</br>' + 'Пицца:' + order +'</br>'+ 'Кол-во:' + a + 'шт.' + '</br>' + 'Сумма заказа: ' + (sum || '140');
