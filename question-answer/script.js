@@ -7,6 +7,6 @@ function arrayRandElement(arr) {
 }
 
 let q = arrayRandElement(questions);
-let a = arrayRandElement(answers)
+let a = arrayRandElement(answers);
 
 document.write(`${q} ${a}`);
